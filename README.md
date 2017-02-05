@@ -32,7 +32,7 @@ well as multitasking performance are assessed.
 
 To generate a replication of the stimulation index by 'rep' in an environment with a particular feature overlap FO (can range  from 0 to 1 in steps of 0.2), run Simulation2(FO, rep)
 
-E.g. Simulation1(1.0, 1)
+E.g. Simulation2(1.0, 1)
 
 Results averaged across multiple replications can be plotted using the code in
 Simulation2_plots.m
