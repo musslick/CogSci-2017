@@ -16,6 +16,8 @@ function Simulation2(taskSimilarity, rep)
 %
 % author: Sebastian Musslick
 
+addpath('main code');
+
 % meta simulation parameters
 log_version = 7;
 

@@ -17,6 +17,8 @@ function Simulation1(rep)
 %
 % author: Sebastian Musslick
 
+addpath('main code');
+
 % meta simulation parameters
 log_version = 7;
 
