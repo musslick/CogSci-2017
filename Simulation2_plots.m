@@ -230,7 +230,7 @@ cap = 2;
 plotSEM = 1;
 
 % plot data
-figure(1)
+figure(2)
 
 switch performanceMeasure
     case 'MSE'
