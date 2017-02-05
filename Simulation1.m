@@ -7,13 +7,13 @@ function Simulation1(rep)
 % rep                  ...Replication (instance) of simulation
 % 
 % DESCRIPTION
-% The simulation involves training a neural networks on a set of tasks in
+% The simulation involves training a neural network on a set of tasks in an
 % environments with different task similarities. Each task requires to map
 % a particular set of 5 stimulus features to a particular set of 5 response 
 % units. Task similarity between a pair of two tasks is operationalized in 
 % terms of the number of shared relevant stimulus features in the
-% environment. At each training iteration the learning performance, as
-% well as multitasking performance are assessed.
+% environment (feature overlap). At each training iteration the learning 
+% performance, as well as multitasking performance are assessed.
 %
 % author: Sebastian Musslick
 

@@ -11,8 +11,9 @@ function Simulation2(taskSimilarity, rep)
 % The simulation involves training a neural networks on a set of tasks with
 % different initial weight conditions. Each initial weight condition
 % determines the initial similarity between tasks that rely on the same
-% input dimension. At each training iteration the learning performance, as
-% well as multitasking performance are assessed.
+% input dimension. All tasks are trained in an environment with a fixed 
+% amount of feature overlap. At each training iteration the learning 
+% performance, as well as multitasking performance are assessed.
 %
 % author: Sebastian Musslick
 
