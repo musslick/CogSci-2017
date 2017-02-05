@@ -19,3 +19,20 @@ E.g. Simulation1(1)
 
 Results averaged across multiple replications can be plotted using the code in
 Simulation1_plots.m
+
+## Simulation 2
+
+The simulation involves training a neural networks on a set of tasks in
+environments with different task similarities. Each task requires to map
+a particular set of 5 stimulus features to a particular set of 5 response 
+units. Task similarity between a pair of two tasks is operationalized in 
+terms of the number of shared relevant stimulus features in the
+environment. At each training iteration the learning performance, as
+well as multitasking performance are assessed.
+
+To generate a replication of the stimulation index by 'rep' in an environment with a particular feature overlap FO (can range  from 0 to 1 in steps of 0.2), run Simulation2(FO, rep)
+
+E.g. Simulation1(1.0, 1)
+
+Results averaged across multiple replications can be plotted using the code in
+Simulation2_plots.m
