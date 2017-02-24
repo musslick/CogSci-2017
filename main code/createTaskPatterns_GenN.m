@@ -180,7 +180,7 @@ for Nactive = 2:NPathways
         tasksMulti(((currTaskComb-1)*samplesPerTask+1):(currTaskComb*samplesPerTask),:) = currTasks;
 
         % build stimulus input
-        if(sameClassifierAcrossTasks)
+        if(sameStimuliAcrossTasks)
             inputMulti(((currTaskComb-1)*samplesPerTask+1):(currTaskComb*samplesPerTask),:) = inputSgl(1:samplesPerTask,:);
         else
             inputMulti(((currTaskComb-1)*samplesPerTask+1):(currTaskComb*samplesPerTask),:) = rand(samplesPerTask, numInputUnits);
